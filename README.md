@@ -1,5 +1,5 @@
 # Lakshya--ecell-recruitment-project
-# 🚀 Founder’s Runway Intelligence
+#  Founder’s Runway Intelligence
 
 A clean, intuitive, and modern runway calculator that helps startups understand how long they can survive based on their financial data.
 
@@ -7,7 +7,7 @@ A clean, intuitive, and modern runway calculator that helps startups understand 
 
 ---
 
-## 📌 About the Project
+##  About the Project
 
 In the world of entrepreneurship, **cash is king**. Many startups fail because they lose track of their financial runway.
 
@@ -19,20 +19,20 @@ This project is a **frontend-only web application** designed to:
 
 ---
 
-## ✨ Features
+## Features
 
-### 💰 Financial Inputs
+###  Financial Inputs
 
 * Total Cash (₹)
 * Monthly Burn Rate (₹)
 
-### 📊 Calculations
+###  Calculations
 
 * Runway (in months)
 * Days to zero
 * Run-out date prediction
 
-### 🎯 Visual Feedback
+### Visual Feedback
 
 * 🟢 **Safe Zone** → Runway > 12 months
 * 🟡 **Warning Zone** → 6–12 months
@@ -40,30 +40,30 @@ This project is a **frontend-only web application** designed to:
 
 The UI dynamically reflects financial health to improve decision-making.
 
-### 📈 Insights Section
+###  Insights Section
 
 * Provides contextual feedback based on inputs
 * Encourages better financial planning
 
-### 🎨 UI/UX Highlights
+###  UI/UX Highlights
 
 * Clean and modern SaaS-style interface
 * Centered layout for better focus
 * Gradient-based design system
 * Smooth spacing and typography hierarchy
 
-### 🌙 Dark Mode
+###  Dark Mode
 
 * Toggle available for improved accessibility and user preference
 
-### 📱 Responsive Design
+###  Responsive Design
 
 * Works across desktop and mobile devices
 * Layout adapts for smaller screens
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **HTML5** → Structure
 * **CSS3** → Styling & Layout
@@ -73,7 +73,7 @@ No frameworks used — focused on core fundamentals.
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. User enters:
 
@@ -93,7 +93,7 @@ No frameworks used — focused on core fundamentals.
 
 ---
 
-## 🎨 Design Decisions
+##  Design Decisions
 
 * Prioritized **clarity over complexity**
 * Used **visual hierarchy** to guide user attention
@@ -103,7 +103,7 @@ No frameworks used — focused on core fundamentals.
 
 ---
 
-## 📱 Responsiveness
+##  Responsiveness
 
 * Flexbox-based layout ensures adaptability
 * Components stack properly on smaller screens
@@ -111,7 +111,7 @@ No frameworks used — focused on core fundamentals.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```bash
 index.html        # Landing Page
@@ -122,7 +122,7 @@ app.js            # Logic & Calculations
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * Add charts for cash flow visualization
 * Store user inputs (localStorage)
@@ -131,7 +131,7 @@ app.js            # Logic & Calculations
 
 ---
 
-## 🎯 Evaluation Focus
+##  Evaluation Focus
 
 This project focuses on:
 
@@ -142,14 +142,14 @@ This project focuses on:
 
 ---
 
-## 👤 Author
+##  Author
 
 **Lakshya Jaiswal**
 GitHub: https://github.com/lakshya-jaiswal07
 
 ---
 
-## ⭐ Final Note
+##  Final Note
 
 This project reflects my approach to building **user-focused, clean, and functional interfaces** that solve real-world problems.
 
