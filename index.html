@@ -3,61 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Startup Runway Intelligence Dashboard</title>
+    <title>Startup Runway Tool</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>🚀 Startup Runway Intelligence Dashboard</h1>
-            <div class="theme-toggle">
-                <input type="checkbox" id="theme-switch">
-                <label for="theme-switch" class="toggle-label">
-                    <span class="toggle-slider"></span>
-                </label>
-            </div>
-        </header>
-
-        <section class="input-section">
-            <div class="input-card">
-                <div class="icon">💰</div>
-                <label for="total-cash">Total Cash (₹)</label>
-                <input type="number" id="total-cash" placeholder="e.g., 5000000" min="0">
-            </div>
-            <div class="input-card">
-                <div class="icon">🔥</div>
-                <label for="burn-rate">Monthly Burn Rate (₹)</label>
-                <input type="number" id="burn-rate" placeholder="e.g., 200000" min="0">
-            </div>
-            <button id="calculate-btn" class="calculate-btn">Calculate Runway</button>
-        </section>
-
-        <section class="output-section">
-            <div class="output-card" id="runway-card">
-                <h3>Runway</h3>
-                <div class="value" id="runway-value">-- months</div>
-            </div>
-            <div class="output-card" id="days-card">
-                <h3>Days to Zero</h3>
-                <div class="value" id="days-value">-- days</div>
-            </div>
-            <div class="output-card">
-            <h3>🗓️ Run Out Date</h3>
-            <div class="value" id="zero-date">--</div>
-            </div>
-        </section>
-
-        <section class="insights-panel">
-            <h3>💡 Insights</h3>
-            <p id="insight-text">Enter your cash and burn rate to get insights.</p>
-        </section>
-
-        <section class="chart-section">
-            <h3>📊 Cash Flow Projection</h3>
-            <canvas id="chart-canvas" width="400" height="200"></canvas>
-        </section>
+    <nav class="navbar">
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="#">Features</a>
+        <a href="#">Contact</a>
     </div>
+    </nav>
+    <section class="hero">
+    <div class="hero-content">
+        <h1>
+            🚀 Founder’s <span>Runway Intelligence</span>
+        </h1>
 
-    <script src="app.js"></script>
+        <p>
+            Understand how long your startup can survive and make smarter financial decisions.
+        </p>
+
+        <a href="dashboard.html" class="cta-btn">Try Calculator →</a>
+    </div>
+</section>
+
+    <section class="features">
+        <div class="feature-card">
+            <h3>📊 Smart Insights</h3>
+            <p>Get instant financial feedback.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>⚡ Fast Calculations</h3>
+            <p>Real-time runway analysis.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>📅 Future Prediction</h3>
+            <p>Know your run-out date.</p>
+        </div>
+    </section>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-columns">
+
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <a href="#">How It Works</a>
+                <a href="#">Blog</a>
+                <a href="#">Help Center</a>
+                <a href="#">Privacy</a>
+            </div>
+
+            <div class="footer-col">
+                <h3>Get in Touch</h3>
+                <p>📧 hello@runway.io</p>
+                <p>📞 +1 (415) 555-0199</p>
+                <p>📍 San Francisco, CA</p>
+            </div>
+
+        </div>
+    </div>
+</footer>
 </body>
 </html>
