@@ -1,13 +1,7 @@
 # Lakshya--ecell-recruitment-project
 ** LIVE DEMO
 https://lakshya-jaiswal07.github.io/Lakshya--ecell-recruitment-project/
-## 📸 Screenshots
 
-### 🌞 Light Mode
-![Light Mode](light.png)
-
-### 🌙 Dark Mode
-![Dark Mode](dark.png)
 # 🚀 E-Cell Runway Calculator
 
 ## 📌 Problem
@@ -51,3 +45,11 @@ This project is a simple frontend tool that calculates how many months of runway
 * Graph visualization
 * Dark mode
 * Better financial insights
+
+## 📸 Screenshots
+
+### 🌞 Light Mode
+![Light Mode](light.png)
+
+### 🌙 Dark Mode
+![Dark Mode](dark.png)
